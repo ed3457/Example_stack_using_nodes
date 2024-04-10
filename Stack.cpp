@@ -52,6 +52,17 @@ bool Stack::isEmpty()
 	return (count==0);
 }
 
+void Stack::initStack()
+{
+	while (!isEmpty())
+	pop();
+}
+
+Stack::~Stack()
+{
+	initStack();
+}
+
 int Stack::getCount()
 {
 	return count;
