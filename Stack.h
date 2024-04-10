@@ -17,10 +17,10 @@ public:
 	int pop();
 	void push(int element);
 	int top();
-	Stack();
-	Stack(int maxSize);
+	Stack(); // Constructor 
+	
 	bool isEmpty();
-	bool isFull();
+	
 	void initStack();
 	~Stack();
 	int getCount();
