@@ -7,7 +7,7 @@ int Stack::pop()
 	{
 		throw 1;
 	}
-
+	int returnedData=first->info; 
 	// 1. point to the first node 
 	node* current = first;
 
@@ -18,6 +18,7 @@ int Stack::pop()
 	delete current;
 	//4. change the count 
 	count--;
+	return returnedData;
 }
 
 void Stack::push(int element)

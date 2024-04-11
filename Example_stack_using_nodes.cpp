@@ -15,8 +15,8 @@ int main()
 		st1.push(3);
 		st1.push(4);
 		st1.push(5);
-		//st1.pop();
-		//st1.push(6);
+		st1.pop();
+		st1.push(6);
 
 		// print all elements of the stack
 		while (!st1.isEmpty())
